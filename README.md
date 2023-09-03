@@ -13,4 +13,7 @@ https://www.bilibili.com/video/BV1hp4y1k7SV/?spm_id_from=333.337.search-card.all
     1. 所有权
     2. 引用
     3. 切片
-
+6. struce_demo
+   结构体
+7. enum_demo 
+    1. 枚举
