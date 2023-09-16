@@ -1,0 +1,12 @@
+[package]
+name = "panic_demo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# 设置发生panic时程序abort，程序不回溯清理内存，占用的内存由操作系统回收
+[profile.release]
+panic = 'abort'

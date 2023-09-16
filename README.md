@@ -23,4 +23,7 @@ https://www.bilibili.com/video/BV1hp4y1k7SV/?spm_id_from=333.337.search-card.all
 9. vector_demo
     1. vector
 10. string_demo
-    
+11. hashmap_demo
+12. panic_demo
+    1. panic 不可恢复的错误
+    2. result 可恢复的错误
