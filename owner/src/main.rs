@@ -50,8 +50,6 @@ fn main() {
     let first_word2 = first_word3(str);
     println!("first_word2 = {}", first_word2);
 
-
-
     let hello_w = String::from("hello world");
     let hello2 = &hello_w[0..5];
     let hello = &hello_w[..5];

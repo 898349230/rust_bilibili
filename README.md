@@ -31,3 +31,5 @@ https://www.bilibili.com/video/BV1hp4y1k7SV/?spm_id_from=333.337.search-card.all
     1. 泛型
 14. trait_demo 
     1. trait
+15. lifecycle_demo
+    1. 生命周期
