@@ -2,7 +2,6 @@ pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
 
-
 pub struct Guess {
     value: u32
 }
@@ -16,6 +15,8 @@ impl Guess {
     }
 }
 
+// 单元测试，只有运行 cargo test 才编译和运行代码
+// cargo build 不会编译执行
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -50,6 +51,19 @@ mod tests {
     fn greater_than_100(){
         // 发生panic时通过
         Guess::new(200);
+    }    
+    #[test]
+    // 忽略测试
+    #[ignore = "reason 121"]
+    fn test_ignore(){
+        // 发生panic时通过
+        Guess::new(200);
     }
+
+// cargo test -- --test-threads=1  设置运行线程数
+// cargo test -- --show-output 输出 println 内容，想在成功的测试中看到打印的内容
+// cargo test greater_than_100   只运行 greater_than_100 测试方法
+// cargo test tes   运行 tes 开头的测试方法
+// cargo test -- --ignored  单独运行 ignore 的测试
 
 }
