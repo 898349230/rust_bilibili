@@ -6,3 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+# 配置不同环境的属性
+[profile.dev]
+# opt-level 在编译时对代码优化， 0-3 逐渐增强，逐渐增加编译时间
+opt-level = 1
+
+
+[profile.release]
+opt-level = 3
