@@ -1,0 +1,8 @@
+# 工作空间
+[workspace]
+# 依赖
+members = [
+    "adder",
+    "add-one",
+    "add-two",
+]
