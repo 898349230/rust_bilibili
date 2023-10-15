@@ -54,3 +54,8 @@ https://www.bilibili.com/video/BV1hp4y1k7SV/?spm_id_from=333.337.search-card.all
 |可变性、借用检查 | 可变、不可变借用（编译时检查）| 不可变借用（编译时检查）| 可变、不可变借用（运行时检查）|
 22. lead_demo
     1. 内存泄漏
+23. thread_demo
+    1. 多线程
+24. mutex_demo
+    1. Mutex 
+    2. Arc<T>
