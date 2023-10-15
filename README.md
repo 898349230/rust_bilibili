@@ -59,3 +59,7 @@ https://www.bilibili.com/video/BV1hp4y1k7SV/?spm_id_from=333.337.search-card.all
 24. mutex_demo
     1. Mutex 
     2. Arc<T>，类似Rc<T>
+25. oop_demo
+    1. 面向对象特性
+26. post_demo
+    1. 面向对象的设计模式
