@@ -40,3 +40,17 @@ https://www.bilibili.com/video/BV1hp4y1k7SV/?spm_id_from=333.337.search-card.all
     1. 示例代码
 18. iter_demo
     1. 迭代器  
+19. add
+    1. workspace 示例
+20. box_demo
+    1. Box<T> 指针
+    2. Deref 解引用 
+    3. Drop trait
+21. rc_demo
+    1. Rc<T>
+    2. RefCell<T>
+|                | Box<T>                     | Rc<T>                 | RefCell<T>       | 
+|同一数据的所有者 | 一个                        | 多个                  | 一个           |
+|可变性、借用检查 | 可变、不可变借用（编译时检查）| 不可变借用（编译时检查）| 可变、不可变借用（运行时检查）|
+22. lead_demo
+    1. 内存泄漏
