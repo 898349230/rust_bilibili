@@ -65,3 +65,7 @@ https://www.bilibili.com/video/BV1hp4y1k7SV/?spm_id_from=333.337.search-card.all
     1. 面向对象的设计模式
 27. unsafe_demo
     1. unsafe
+28. advance_trait
+    1. 关联类型
+29. advance_type
+    1. 高级类型
